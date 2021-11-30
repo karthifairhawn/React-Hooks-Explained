@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=PT+Sans&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+.container{
+    background-color: #222222;
+    width: 100%;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.hook-container{
+    /* width: 80%; */
+
+}
+.hook{
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    width:200px;
+    text-align: center;
+    margin: 5%;
+    border-radius:25px;
+    cursor: pointer;
+    border: 3px solid #4c9ad8;
+    opacity: 0.8;
+    transition: all 0.1s ease-out;
+}
+.hook:hover{
+    opacity: 1;
+    background-color: #4c9ad8;
+    transition: all 0.1s ease-out;
+}
+
+.stateContainer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:100vh;
+    flex-direction: column;
+}
+
+label{
+    padding:10px;
+    border:1px solid black;
+    background-color: darkslategrey;
+    color: #fff;
+    width:200px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 10px;
+    font-size:20px;
+}
